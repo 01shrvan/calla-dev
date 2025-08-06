@@ -16,7 +16,7 @@ const Page = () => {
 
   return (
     <div className="p-4 max-w-7xl mx-auto">
-      <Button onClick={() => invoke.mutate({ text: "daddy" })}>
+      <Button disabled={invoke.isPending} onClick={() => invoke.mutate({ text: "daddy" })}>
         nigga
       </Button>
     </div>
