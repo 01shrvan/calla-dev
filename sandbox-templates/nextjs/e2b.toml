@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (72xiwjvaqiif4a0ccofm) or template name (calla-dev) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("calla-dev") # Sync sandbox
+# sandbox = await AsyncSandbox.create("calla-dev") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('calla-dev')
+
+team_id = "be8521d7-22eb-4139-b56b-6b24703686b1"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "calla-dev"
+template_id = "72xiwjvaqiif4a0ccofm"
