@@ -67,7 +67,7 @@ const Page = () => {
                 }
               }}
               placeholder="drop your app idea..."
-              className="w-full rounded-2xl px-6 py-6 text-base pr-16 h-auto border border-text-muted-foreground"
+              className="w-full rounded-2xl px-6 py-6 text-base pr-16 h-auto border border-text-muted-foreground backdrop-blur-sm bg-background/60"
             />
             <button
               disabled={invoke.isPending || !value.trim()}
