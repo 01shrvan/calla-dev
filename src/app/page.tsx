@@ -78,7 +78,7 @@ const Page = () => {
             </button>
           </div>
           <p className="text-xs text-muted-foreground mt-3 text-center">
-            smash <kbd className="inline-block px-1.5 py-0.5 bg-muted rounded text-xs border">enter</kbd> to manifest
+            smash <kbd className="inline-block px-1 py-0.5 bg-muted rounded text-xs border">enter</kbd> to manifest
           </p>
         </div>
 
