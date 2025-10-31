@@ -44,7 +44,7 @@ const Page = () => {
       />
       <div className="flex flex-col items-center w-full relative z-10">
         <div className="mb-6">
-          <img src="/logo.png" alt="Logo" className="w-15 h-15 rounded-xl object-cover" />
+          <img src="/logo.svg" alt="Logo" className="w-15 h-15 rounded-xl object-cover" />
         </div>
 
         <div className="max-w-4xl text-center mb-15">
